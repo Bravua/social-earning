@@ -1,0 +1,131 @@
+.bg1st{
+    background-color: #0066cc;
+    padding: 2px;
+}
+.form-control{
+    border: lightgrey 1px solid;
+    padding: 10px;
+    background: none;
+    outline: none;
+    background:white;
+    font-weight: 500;
+    transition: .5s;
+    border-radius: 5px;
+  }
+  label{
+    pointer-events: none;
+    transition: .5s;
+    font-weight: 500;
+    color: #061306;
+  }
+  #hide1{
+    display: none;
+}
+.eye{
+    color: #0d1a00;
+    margin-top: -30px;
+    font-size: 20px;
+  }
+  
+@media  (max-width:700px){
+.nav-link{
+    font-size: small;
+    font-weight: 700;
+    color: white;
+}
+.con2{
+    background-color: #0066cc;
+    padding: 10px;
+}
+.con4{
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+.corobg{
+    background-color: white;
+}
+.cardc{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/istockphoto-1224629431-612x612.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 80vh;
+    border-radius: 25px;
+    color: white;
+    margin-top: 10px;
+  }
+  .cimg{
+    background-image: url('img/doll.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-position: center;
+  }
+  .con6{
+    background-color:#0066cc;
+  }
+  .logo2{
+    background-image: url('img/socialearninglogo2.png');
+    height: 100px;
+    width: 200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: #0066cc;
+    border-radius: 10px;
+
+}
+}
+
+@media  (min-width:700px){
+    .nav-link{
+        font-size: large;
+        font-weight: 700;
+        color: white;
+    }
+    .con2{
+        background-color: #0066cc;
+        padding: 10px;
+    }
+    .con4{
+        background-color: #0066cc;
+        border-radius: 5px;
+    }
+    .corobg{
+        background-color: white;
+    }
+    .cardc{
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/istockphoto-1224629431-612x612.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 60vh;
+        border-radius: 25px;
+        color: white;
+      }
+      .cimg{
+        background-image: url('img/doll.jpg');
+        background-size: cover;
+        background-repeat: repeat;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-position: center;
+      }
+      .con6{
+        background-color:#0066cc;
+      }
+      .logo2{
+        background-image: url('img/socialearninglogo2.png');
+        height: 100px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #0066cc;
+        border-radius: 10px;
+    
+    }
+}
